@@ -1,7 +1,7 @@
 myenv
 *.sqlite3
 *.pyc
-__pycache__/
+api_gestão/__pycache__/
 
 
 # Visual Studio Code # 
