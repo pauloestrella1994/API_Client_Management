@@ -18,9 +18,14 @@ from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from Employees.api.viewsets import EmployeeViewSet
+from Company.api.viewsets import CompanyViewSet
+from Departament.api.viewsets import DepartamentViewSet
+
 
 router = routers.DefaultRouter()
 router.register(r'employees', EmployeeViewSet)
+router.register(r'company', CompanyViewSet)
+router.register(r'departament', DepartamentViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
