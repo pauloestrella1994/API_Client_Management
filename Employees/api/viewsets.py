@@ -6,3 +6,4 @@ class EmployeeViewSet(ModelViewSet):
 
     queryset = Employee.objects.all()
     serializer_class = EmployeesSerializer
+    filter_fields = '__all__'

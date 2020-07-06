@@ -6,3 +6,4 @@ class CompanyViewSet(ModelViewSet):
     
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
+    filter_fields = '__all__'

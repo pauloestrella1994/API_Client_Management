@@ -6,3 +6,4 @@ class DepartamentViewSet(ModelViewSet):
 
     queryset = Departament.objects.all()
     serializer_class = DepartamentSerializer
+    filter_fields = '__all__'
