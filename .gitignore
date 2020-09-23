@@ -1,10 +1,12 @@
 myenv
 *.sqlite3
 db.sqlite3
+.db.sqlite3
 *.pyc
 api_gestão/__pycache__/
 .idea
 
+.idea
 
 # Visual Studio Code # 
 .vscode/* 
