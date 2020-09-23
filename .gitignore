@@ -3,6 +3,7 @@ myenv
 db.sqlite3
 *.pyc
 api_gestão/__pycache__/
+.idea
 
 
 # Visual Studio Code # 
